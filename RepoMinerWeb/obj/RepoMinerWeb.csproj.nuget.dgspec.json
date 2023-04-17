@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\brian\\OneDrive\\Documentos\\NZWalks\\RepoMiner\\RepoMinerWeb\\RepoMinerWeb.csproj": {}
+    "C:\\Users\\Jocabed\\Documents\\C#\\RepoMiner\\RepoMinerWeb\\RepoMinerWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\brian\\OneDrive\\Documentos\\NZWalks\\RepoMiner\\RepoMinerWeb\\RepoMinerWeb.csproj": {
+    "C:\\Users\\Jocabed\\Documents\\C#\\RepoMiner\\RepoMinerWeb\\RepoMinerWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brian\\OneDrive\\Documentos\\NZWalks\\RepoMiner\\RepoMinerWeb\\RepoMinerWeb.csproj",
+        "projectUniqueName": "C:\\Users\\Jocabed\\Documents\\C#\\RepoMiner\\RepoMinerWeb\\RepoMinerWeb.csproj",
         "projectName": "RepoMinerWeb",
-        "projectPath": "C:\\Users\\brian\\OneDrive\\Documentos\\NZWalks\\RepoMiner\\RepoMinerWeb\\RepoMinerWeb.csproj",
-        "packagesPath": "C:\\Users\\brian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brian\\OneDrive\\Documentos\\NZWalks\\RepoMiner\\RepoMinerWeb\\obj\\",
+        "projectPath": "C:\\Users\\Jocabed\\Documents\\C#\\RepoMiner\\RepoMinerWeb\\RepoMinerWeb.csproj",
+        "packagesPath": "C:\\Users\\Jocabed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jocabed\\Documents\\C#\\RepoMiner\\RepoMinerWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\brian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jocabed\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +43,16 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

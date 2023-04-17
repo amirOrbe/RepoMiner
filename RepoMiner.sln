@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepoMinerCore", "RepoMiner\RepoMinerCore.csproj", "{E25D28A6-62DD-45EB-89DD-695E9A1A9A3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepoMinerWeb", "RepoMinerWeb\RepoMinerWeb.csproj", "{AB06CD82-8EAD-48CA-95CB-ECDAE1D37C67}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "RepoMinerAnalysis", "RepoMinerAnalysis\RepoMinerAnalysis.sqlproj", "{ABD24D7A-683F-4CCD-99D5-0CB1AF0C2820}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E25D28A6-62DD-45EB-89DD-695E9A1A9A3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E25D28A6-62DD-45EB-89DD-695E9A1A9A3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E25D28A6-62DD-45EB-89DD-695E9A1A9A3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E25D28A6-62DD-45EB-89DD-695E9A1A9A3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB06CD82-8EAD-48CA-95CB-ECDAE1D37C67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB06CD82-8EAD-48CA-95CB-ECDAE1D37C67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB06CD82-8EAD-48CA-95CB-ECDAE1D37C67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB06CD82-8EAD-48CA-95CB-ECDAE1D37C67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABD24D7A-683F-4CCD-99D5-0CB1AF0C2820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABD24D7A-683F-4CCD-99D5-0CB1AF0C2820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABD24D7A-683F-4CCD-99D5-0CB1AF0C2820}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{ABD24D7A-683F-4CCD-99D5-0CB1AF0C2820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABD24D7A-683F-4CCD-99D5-0CB1AF0C2820}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABD24D7A-683F-4CCD-99D5-0CB1AF0C2820}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58FA1181-AF4C-4EF0-B3DF-E6FA0D8FAF18}
+	EndGlobalSection
+EndGlobal

@@ -1,11 +1,34 @@
 {
   "Version": 1,
-  "Hash": "JVVth7lo/ZGrkGPJGgwZ56Y9k0QJERrmNo5DOo7pKRo=",
+  "Hash": "v7qoBwB2eHrZy93X3r13+NQDSb/DzQo323kKVyw22Ys=",
   "Source": "RepoMinerWeb",
   "BasePath": "_content/RepoMinerWeb",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Jocabed\\Documents\\C#\\RepoMiner\\RepoMiner\\RepoMinerCore.csproj",
+      "Version": 2,
+      "Source": "RepoMinerCore",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    },
+    {
+      "Identity": "C:\\Users\\Jocabed\\Documents\\C#\\RepoMiner\\RepoMinerAnalysis\\RepoMinerAnalysis.csproj",
+      "Version": 2,
+      "Source": "RepoMinerAnalysis",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [],
   "Assets": []
 }

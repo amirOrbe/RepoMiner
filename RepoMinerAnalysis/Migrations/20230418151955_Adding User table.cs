@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace RepoMinerAnalysis.Migrations
 {
     /// <inheritdoc />
-    public partial class AddingUsersTable : Migration
+    public partial class AddingUsertable : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -38,6 +38,12 @@ namespace RepoMinerAnalysis.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Users", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Users_Roles_RoleId",
+                        column: x => x.RoleId,
+                        principalTable: "Roles",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.InsertData(
@@ -48,16 +54,21 @@ namespace RepoMinerAnalysis.Migrations
                     { new Guid("554e22fc-aa28-4ba4-ae2e-bc409bfc4802"), "Admin" },
                     { new Guid("8abd6df2-b423-4b67-8686-512e3c81811f"), "Collaborator" }
                 });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Users_RoleId",
+                table: "Users",
+                column: "RoleId");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Roles");
+                name: "Users");
 
             migrationBuilder.DropTable(
-                name: "Users");
+                name: "Roles");
         }
     }
 }

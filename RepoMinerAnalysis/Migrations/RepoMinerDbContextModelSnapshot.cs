@@ -72,7 +72,20 @@ namespace RepoMinerAnalysis.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("RoleId");
+
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("RepoMinerAnalysis.Models.Domain.User", b =>
+                {
+                    b.HasOne("RepoMinerAnalysis.Models.Domain.Roles", "Role")
+                        .WithMany()
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Role");
                 });
 #pragma warning restore 612, 618
         }

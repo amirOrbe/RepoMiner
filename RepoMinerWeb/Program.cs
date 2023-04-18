@@ -1,11 +1,24 @@
+using Microsoft.EntityFrameworkCore;
+using RepoMinerAnalysis.Data;
+using RepoMinerWeb.Mapping;
+using RepoMinerWeb.Repositories;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.AddHttpContextAccessor();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddDbContext<RepoMinerDbContext>(
+    options => options.UseSqlServer(builder.Configuration.GetConnectionString("RepoMinerConnectionString")));
+
+
+builder.Services.AddScoped<IUserRepository, SqlUserRepository>();
+builder.Services.AddAutoMapper(typeof(AutoMapperProfiles));
 
 var app = builder.Build();
 

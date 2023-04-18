@@ -9,6 +9,8 @@ namespace RepoMinerWeb.Mapping
         public AutoMapperProfiles()
         {
             CreateMap<User, UserDto>().ReverseMap();
+            CreateMap<CreateUserDto, User>().ReverseMap();
+            CreateMap<UpdateUserDto, User>().ReverseMap();
         }
     }
 }

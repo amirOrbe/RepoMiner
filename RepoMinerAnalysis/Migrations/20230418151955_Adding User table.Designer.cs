@@ -12,8 +12,8 @@ using RepoMinerAnalysis.Data;
 namespace RepoMinerAnalysis.Migrations
 {
     [DbContext(typeof(RepoMinerDbContext))]
-    [Migration("20230417203014_Adding Users Table")]
-    partial class AddingUsersTable
+    [Migration("20230418151955_Adding User table")]
+    partial class AddingUsertable
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -75,7 +75,20 @@ namespace RepoMinerAnalysis.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("RoleId");
+
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("RepoMinerAnalysis.Models.Domain.User", b =>
+                {
+                    b.HasOne("RepoMinerAnalysis.Models.Domain.Roles", "Role")
+                        .WithMany()
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Role");
                 });
 #pragma warning restore 612, 618
         }

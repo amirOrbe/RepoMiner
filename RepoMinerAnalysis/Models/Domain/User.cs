@@ -15,6 +15,6 @@ namespace RepoMinerAnalysis.Models.Domain
         public string Email { get; set; }
         public Guid RoleId { get; set; }
 
-        //public Role Role { get; set; }
+        public Roles Role { get; set; }
     }
 }

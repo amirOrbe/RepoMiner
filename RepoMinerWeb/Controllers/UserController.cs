@@ -1,15 +1,9 @@
 ﻿using AutoMapper;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using RepoMinerAnalysis.Data;
 using RepoMinerWeb.Models.DTO;
 using RepoMinerAnalysis.Models.Domain;
 using RepoMinerWeb.Repositories;
-using System.Text.Json;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Authorization;
-using System.Data;
+using RepoMinerCore.LibGit2Sharp;
 
 namespace RepoMinerWeb.Controllers
 {
@@ -19,12 +13,13 @@ namespace RepoMinerWeb.Controllers
     {
         private readonly IUserRepository userRepository;
         private readonly IMapper mapper;
+        private readonly ILogger<UserController> logger;
 
-        public UserController(IUserRepository userRepository, IMapper mapper)
+        public UserController(IUserRepository userRepository, IMapper mapper, ILogger<UserController> logger)
         {
             this.userRepository = userRepository;
             this.mapper = mapper;
-
+            this.logger = logger;
         }
 
         [HttpGet]
@@ -33,6 +28,8 @@ namespace RepoMinerWeb.Controllers
             var users = userRepository.GetAll();
 
             var usersDto = mapper.Map<List<UserDto>>(users);
+            var repository = new GetRepositoriesData();
+            repository.GetRepositorieData("https://github.com/amirOrbe/medussa_studio");
 
             return Ok(usersDto);
         }

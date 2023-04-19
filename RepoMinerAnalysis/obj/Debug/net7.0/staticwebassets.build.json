@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "CRBvtZ8bV2joEyogvf+X2fwr+vUpDFURxOjU/SxJ6yw=",
+  "Hash": "xlAz2KiMR+qeZ2Obkav0NXQTlmjS3mEf82uq4v28xxQ=",
   "Source": "RepoMinerAnalysis",
   "BasePath": "_content/RepoMinerAnalysis",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\Jocabed\\Documents\\C#\\RepoMiner\\RepoMiner\\RepoMinerCore.csproj",
+      "Identity": "C:\\Users\\brian\\Documents\\RepoMiner\\RepoMiner\\RepoMinerCore.csproj",
       "Version": 2,
       "Source": "RepoMinerCore",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",

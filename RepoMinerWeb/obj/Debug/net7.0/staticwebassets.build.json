@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "v7qoBwB2eHrZy93X3r13+NQDSb/DzQo323kKVyw22Ys=",
+  "Hash": "TWNPljD3v/r7hCyFkpP+YnyUFsScpLE+Z2qv2xbglZ4=",
   "Source": "RepoMinerWeb",
   "BasePath": "_content/RepoMinerWeb",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\Jocabed\\Documents\\C#\\RepoMiner\\RepoMiner\\RepoMinerCore.csproj",
+      "Identity": "C:\\Users\\brian\\Documents\\RepoMiner\\RepoMiner\\RepoMinerCore.csproj",
       "Version": 2,
       "Source": "RepoMinerCore",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -18,7 +18,7 @@
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     },
     {
-      "Identity": "C:\\Users\\Jocabed\\Documents\\C#\\RepoMiner\\RepoMinerAnalysis\\RepoMinerAnalysis.csproj",
+      "Identity": "C:\\Users\\brian\\Documents\\RepoMiner\\RepoMinerAnalysis\\RepoMinerAnalysis.csproj",
       "Version": 2,
       "Source": "RepoMinerAnalysis",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",

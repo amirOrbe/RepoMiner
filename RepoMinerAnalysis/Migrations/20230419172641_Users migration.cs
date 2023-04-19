@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace RepoMinerAnalysis.Migrations
 {
     /// <inheritdoc />
-    public partial class AddingUsertable : Migration
+    public partial class Usersmigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

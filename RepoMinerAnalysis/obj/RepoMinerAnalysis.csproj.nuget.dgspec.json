@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jocabed\\Documents\\C#\\RepoMiner\\RepoMinerAnalysis\\RepoMinerAnalysis.csproj": {}
+    "C:\\Users\\brian\\Documents\\RepoMiner\\RepoMinerAnalysis\\RepoMinerAnalysis.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jocabed\\Documents\\C#\\RepoMiner\\RepoMinerAnalysis\\RepoMinerAnalysis.csproj": {
+    "C:\\Users\\brian\\Documents\\RepoMiner\\RepoMinerAnalysis\\RepoMinerAnalysis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jocabed\\Documents\\C#\\RepoMiner\\RepoMinerAnalysis\\RepoMinerAnalysis.csproj",
+        "projectUniqueName": "C:\\Users\\brian\\Documents\\RepoMiner\\RepoMinerAnalysis\\RepoMinerAnalysis.csproj",
         "projectName": "RepoMinerAnalysis",
-        "projectPath": "C:\\Users\\Jocabed\\Documents\\C#\\RepoMiner\\RepoMinerAnalysis\\RepoMinerAnalysis.csproj",
-        "packagesPath": "C:\\Users\\Jocabed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jocabed\\Documents\\C#\\RepoMiner\\RepoMinerAnalysis\\obj\\",
+        "projectPath": "C:\\Users\\brian\\Documents\\RepoMiner\\RepoMinerAnalysis\\RepoMinerAnalysis.csproj",
+        "packagesPath": "C:\\Users\\brian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\brian\\Documents\\RepoMiner\\RepoMinerAnalysis\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jocabed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\brian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Jocabed\\Documents\\C#\\RepoMiner\\RepoMiner\\RepoMinerCore.csproj": {
-                "projectPath": "C:\\Users\\Jocabed\\Documents\\C#\\RepoMiner\\RepoMiner\\RepoMinerCore.csproj"
+              "C:\\Users\\brian\\Documents\\RepoMiner\\RepoMiner\\RepoMinerCore.csproj": {
+                "projectPath": "C:\\Users\\brian\\Documents\\RepoMiner\\RepoMiner\\RepoMinerCore.csproj"
               }
             }
           }
@@ -44,6 +44,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -84,17 +88,17 @@
         }
       }
     },
-    "C:\\Users\\Jocabed\\Documents\\C#\\RepoMiner\\RepoMiner\\RepoMinerCore.csproj": {
+    "C:\\Users\\brian\\Documents\\RepoMiner\\RepoMiner\\RepoMinerCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jocabed\\Documents\\C#\\RepoMiner\\RepoMiner\\RepoMinerCore.csproj",
+        "projectUniqueName": "C:\\Users\\brian\\Documents\\RepoMiner\\RepoMiner\\RepoMinerCore.csproj",
         "projectName": "RepoMinerCore",
-        "projectPath": "C:\\Users\\Jocabed\\Documents\\C#\\RepoMiner\\RepoMiner\\RepoMinerCore.csproj",
-        "packagesPath": "C:\\Users\\Jocabed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jocabed\\Documents\\C#\\RepoMiner\\RepoMiner\\obj\\",
+        "projectPath": "C:\\Users\\brian\\Documents\\RepoMiner\\RepoMiner\\RepoMinerCore.csproj",
+        "packagesPath": "C:\\Users\\brian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\brian\\Documents\\RepoMiner\\RepoMiner\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jocabed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\brian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -119,6 +123,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "LibGit2Sharp": {
+              "target": "Package",
+              "version": "[0.27.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

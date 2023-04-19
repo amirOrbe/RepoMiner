@@ -12,8 +12,8 @@ using RepoMinerAnalysis.Data;
 namespace RepoMinerAnalysis.Migrations
 {
     [DbContext(typeof(RepoMinerDbContext))]
-    [Migration("20230418151955_Adding User table")]
-    partial class AddingUsertable
+    [Migration("20230419172641_Users migration")]
+    partial class Usersmigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

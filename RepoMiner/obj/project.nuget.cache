@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "YU3g/kKntfbK5DgylyBaI9mb4Q3ab20UO20Wb64ucuZ/k+sjBAhfWfUF2fv2FQfx9lO+6JvXJIlUdVxuLiWyRQ==",
+  "dgSpecHash": "Pib6+M3HT9FfVjn7sC2MigerDeaZBkGfbbtx+xGPLNJwo64NTKziJPeGAmCNNV0CNXIrUzbdXI2CkNqJvBxo1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\brian\\OneDrive\\Documentos\\NZWalks\\RepoMiner\\RepoMiner\\RepoMinerCore.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\brian\\Documents\\RepoMiner\\RepoMiner\\RepoMinerCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\brian\\.nuget\\packages\\libgit2sharp\\0.27.2\\libgit2sharp.0.27.2.nupkg.sha512",
+    "C:\\Users\\brian\\.nuget\\packages\\libgit2sharp.nativebinaries\\2.0.320\\libgit2sharp.nativebinaries.2.0.320.nupkg.sha512"
+  ],
   "logs": []
 }

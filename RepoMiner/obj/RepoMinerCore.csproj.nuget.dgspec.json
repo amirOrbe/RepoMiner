@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\brian\\OneDrive\\Documentos\\NZWalks\\RepoMiner\\RepoMiner\\RepoMinerCore.csproj": {}
+    "C:\\Users\\brian\\Documents\\RepoMiner\\RepoMiner\\RepoMinerCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\brian\\OneDrive\\Documentos\\NZWalks\\RepoMiner\\RepoMiner\\RepoMinerCore.csproj": {
+    "C:\\Users\\brian\\Documents\\RepoMiner\\RepoMiner\\RepoMinerCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brian\\OneDrive\\Documentos\\NZWalks\\RepoMiner\\RepoMiner\\RepoMinerCore.csproj",
+        "projectUniqueName": "C:\\Users\\brian\\Documents\\RepoMiner\\RepoMiner\\RepoMinerCore.csproj",
         "projectName": "RepoMinerCore",
-        "projectPath": "C:\\Users\\brian\\OneDrive\\Documentos\\NZWalks\\RepoMiner\\RepoMiner\\RepoMinerCore.csproj",
+        "projectPath": "C:\\Users\\brian\\Documents\\RepoMiner\\RepoMiner\\RepoMinerCore.csproj",
         "packagesPath": "C:\\Users\\brian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brian\\OneDrive\\Documentos\\NZWalks\\RepoMiner\\RepoMiner\\obj\\",
+        "outputPath": "C:\\Users\\brian\\Documents\\RepoMiner\\RepoMiner\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\brian\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "LibGit2Sharp": {
+              "target": "Package",
+              "version": "[0.27.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
